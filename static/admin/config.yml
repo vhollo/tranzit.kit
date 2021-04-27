@@ -1,0 +1,61 @@
+site_url: https://www.tranzitcafe.com
+
+backend:
+  name: git-gateway
+#  branch: master # Branch to update (optional; defaults to master)
+
+# when using the default proxy server port for local git update
+local_backend: true
+
+# publish_mode: editorial_workflow # Allows you to save drafts before publishing them
+
+media_folder: static/images # Media files will be stored in the repo under static/uploads
+public_folder: /images # The src attribute for uploaded media will begin with /uploads
+
+# nc-root: If Netlify CMS finds an element with this ID during initialization, it will mount within that element instead of creating its own.
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+i18n:
+  structure: multiple_files
+  locales: [hu, en] 
+
+collections:
+
+  - name: menu
+    label: Napi menü
+    folder: content/napimenu
+    delete: false
+    create: false
+    i18n: true
+    identifier_field: menutitle
+    #filter: {field: "type", value: "index"}
+    summary: "{{menutitle}}"
+    slug: "napimenu"
+    fields:
+      - label: Dátum
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+        i18n: true
+      - label: Leves
+        name: soup
+        widget: string
+        required: false
+        i18n: true
+      - label: A menu
+        name: menua
+        widget: string
+        required: false
+        i18n: true
+      - label: B menu
+        name: menub
+        widget: string
+        required: false
+        i18n: true

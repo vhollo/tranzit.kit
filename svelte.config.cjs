@@ -13,7 +13,13 @@ module.exports = {
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: 'body',
-		/*files: {
+		prerender: {
+			crawl: true,
+			enabled: true,
+			force: true,
+			pages: ['*'],
+		},
+/*files: {
 			assets: 'static',
 			hooks: 'src/hooks',
 			lib: 'src/lib',
