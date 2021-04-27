@@ -539,20 +539,11 @@
   <thead>
     <tr>
       <td lang="hu">
-        <p>Teák 1.</p>
+        <p>Filteres Teák</p>
       </td>
       <td></td>
       <td lang="en">
-        <p>Teas 1.</p>
-      </td>
-    </tr>
-    <tr>
-      <td lang="hu">
-        <p>Filteres</p>
-      </td>
-      <td></td>
-      <td lang="en">
-        <p>Tea bag</p>
+        <p>Filter Teas</p>
       </td>
     </tr>
   </thead>
@@ -640,20 +631,11 @@
   <thead>
     <tr>
       <td lang="hu">
-        <p>Teák 2.</p>
+        <p>Szálas Teák</p>
       </td>
       <td></td>
       <td lang="en">
-        <p>Teas 2.</p>
-      </td>
-    </tr>
-    <tr>
-      <td lang="hu">
-        <p>Szálas</p>
-      </td>
-      <td></td>
-      <td lang="en">
-        <p>Leaf Tea</p>
+        <p>Leaf Teas</p>
       </td>
     </tr>
   </thead>
