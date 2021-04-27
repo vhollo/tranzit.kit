@@ -43,7 +43,7 @@ collections:
         date_format: "YYYY-MM-DD"
         time_format: false
         required: false
-        i18n: true
+        i18n: duplicate
       - label: Leves
         name: soup
         widget: string
