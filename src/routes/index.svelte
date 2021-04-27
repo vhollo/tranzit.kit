@@ -153,7 +153,7 @@
       </iframe>
 
 
-      <iframe title="Facebook/tranzitcafe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftranzitcafe%2F&tabs=timeline&width=360&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=122069431235370" width="360" height="640" style="margin:0 -2rem;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe title="Facebook/tranzitcafe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftranzitcafe%2F&tabs=timeline%2Cevents&width=360&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=122069431235370" width="360" height="640" style="margin:0 -2rem;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
   </section>
 
