@@ -2,7 +2,7 @@ site_url: https://tranzitcafe.netlify.app
 
 backend:
   name: git-gateway
-#  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 # when using the default proxy server port for local git update
 local_backend: true
