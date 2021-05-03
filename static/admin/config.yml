@@ -27,14 +27,15 @@ collections:
 
   - name: menu
     label: Napi menü
-    folder: content/napimenu
-    delete: false
-    create: false
+    folder: /src/napimenu
+    #path: "{{slug}}"
+    slug: "{{date}}"
+    summary: "{{date}}"
+    identifier_field: date
+    delete: true
+    create: true
     i18n: true
-    identifier_field: menutitle
     #filter: {field: "type", value: "index"}
-    summary: "{{menutitle}}"
-    slug: "napimenu"
     fields:
       - label: Dátum
         name: date
@@ -42,7 +43,6 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "YYYY-MM-DD"
         time_format: false
-        required: false
         i18n: duplicate
       - label: Leves
         name: soup

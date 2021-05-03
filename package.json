@@ -1,5 +1,5 @@
 {
-  "name": "Tranzit",
+  "name": "tranzit",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -10,8 +10,14 @@
     "@sveltejs/adapter-netlify": "^1.0.0-next.10",
     "@sveltejs/adapter-node": "next",
     "@sveltejs/kit": "next",
+    "mdsvex": "^0.9.0",
+    "rehype-autolink-headings": "^5.0.1",
+    "rehype-slug": "^4.0.1",
+    "remark-abbr": "^1.4.1",
+    "remark-github": "^10.0.1",
     "svelte": "^3.29.0",
-    "vite": "^2.1.0"
+    "vite": "^2.1.0",
+    "vite-plugin-markdown": "^2.0.2"
   },
   "type": "module"
 }

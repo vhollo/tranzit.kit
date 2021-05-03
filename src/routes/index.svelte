@@ -1,8 +1,44 @@
-<script>
-  import Artcafe from '../components/Artcafe.svelte'
-  import Bistro from '../components/Bistro.svelte'
-  import Etlap from '../components/Etlap.svelte'
+<script context="module">
+  const posts = import.meta.glob('../napimenu/*.md')
+
+let body = []
+
+//console.log(posts)
+for (const path in posts) {
+  //body.push(posts[path]().then(({metadata}) => metadata))
+  
+  const push = posts[path]().then(({metadata}) => transform(metadata,path))//.then(({metadata}) => metadata)
+  body.push(push)
+}
+export async function load({ page, fetch }) {
+  const posts = await Promise.all(body)
+  //console.log(Promise.all(body))
+  return {
+    props: {
+      posts
+    }
+  }
+}
+function transform(m,p) {
+  const s = p.split('.')
+  m.lang = s[s.length-2]
+  const d = new Date(m.date)
+  m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+  m.value = d.valueOf() || 0
+  //console.log(date.toLocaleDateString(y), { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+  return m
+}
 </script>
+<script>
+  import Artcafe from '$lib/Artcafe.svelte'
+  import Bistro from '$lib/Bistro.svelte'
+  import Etlap from '$lib/Etlap.svelte'
+  export let posts
+  let d = new Date().valueOf()
+  //d = d.valueOf()
+  console.log(posts)
+</script>
+
 <input id="checked0" name="change" type="radio" checked>
 <input id="checked1" name="change" type="radio">
 <input id="checked2" name="change" type="radio">
@@ -61,6 +97,28 @@
       <h1 id="menutext"><span lang="hu">Napi ajánlatok hétfőtől péntekig</span><span lang="en">Daily offers Monday to Friday</span></h1>
       <p><span lang="hu">12 órától</span><span lang="en">From 12 PM</span></p>
       <p id="menudate"><span lang="hu"></span><span lang="en"></span></p>
+<!--<h1>{d}</h1>-->
+      {#each posts as {date, soup, menua, menub, lang, value}}
+<!--<h2>{value}</h2>-->
+      {#if d <= value || true}
+      <aside lang="{lang}">
+        <h2>{date}</h2>
+        <h3><span lang="hu">Leves</span><span lang="en">Soup</span></h3>
+        <p>
+          {soup}
+        </p>
+        <h3>Menu A</h3>
+        <p>
+          {menua}
+        </p>
+        <h3>Menu B</h3>
+        <p>
+          {menub}
+        </p>
+      </aside>
+      {/if}
+      {/each}
+    
 
       <table id="formules">
         <tbody>

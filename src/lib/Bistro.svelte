@@ -66,7 +66,4 @@
 
     <p>Email: <a href="mailto:tranzit@tranzitcafe.com" target="_blank">tranzit@tranzitcafe.com</a></p>
   </div>
-
-
-
 </article>
