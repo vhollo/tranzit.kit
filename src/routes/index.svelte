@@ -7,7 +7,7 @@ let body = []
 for (const path in posts) {
   //body.push(posts[path]().then(({metadata}) => metadata))
   
-  const push = posts[path]().then(({metadata}) => transform(metadata,path))//.then(({metadata}) => metadata)
+  const push = posts[path]().then(({metadata}) => transform(metadata,path))
   body.push(push)
 }
 export async function load({ page, fetch }) {
@@ -20,11 +20,15 @@ export async function load({ page, fetch }) {
   }
 }
 function transform(m,p) {
+  m.soup = m.soup || ''
+  m.menua = m.menua || ''
+  m.menub = m.menub || ''
   const s = p.split('.')
   m.lang = s[s.length-2]
   const d = new Date(m.date)
   m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
   m.value = d.valueOf() || 0
+  if (!(m.soup || m.menua || m.menub)) m.value = 0
   //console.log(date.toLocaleDateString(y), { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
   return m
 }
@@ -34,9 +38,8 @@ function transform(m,p) {
   import Bistro from '$lib/Bistro.svelte'
   import Etlap from '$lib/Etlap.svelte'
   export let posts
-  let d = new Date().valueOf()
-  //d = d.valueOf()
-  console.log(posts)
+  let d = new Date(new Date(Date()).toDateString()).valueOf()
+  //console.log(d)
 </script>
 
 <input id="checked0" name="change" type="radio" checked>
@@ -95,26 +98,30 @@ function transform(m,p) {
       </header>
 
       <h1 id="menutext"><span lang="hu">Napi ajánlat</span><span lang="en">Daily offers</span></h1>
-      <p><span lang="hu">Hétfőtől péntekig 12 órától</span><span lang="en">Monday to Friday From 12 PM</span></p>
+      <p><span lang="hu">12 órától</span><span lang="en">From 12 PM</span></p>
       <p id="menudate"><span lang="hu"></span><span lang="en"></span></p>
-<!--<h1>{d}</h1>-->
       {#each posts as {date, soup, menua, menub, lang, value}}
-<!--<h2>{value}</h2>-->
-      {#if d <= value || true}
+      {#if d <= value}
       <aside lang="{lang}">
         <h2>{date}</h2>
+        {#if soup}
         <h3><span lang="hu">Leves</span><span lang="en">Soup</span></h3>
         <p>
           {soup}
         </p>
-        <h3>Menu A</h3>
+        {/if}
+        {#if menua}
+        <h3><span lang="hu">"A" Menü</span><span lang="en">Menu A</span></h3>
         <p>
           {menua}
         </p>
-        <h3>Menu B</h3>
+        {/if}
+        {#if menub}
+        <h3><span lang="hu">"B" Menü</span><span lang="en">Menu B</span></h3>
         <p>
           {menub}
         </p>
+        {/if}
       </aside>
       {/if}
       {/each}
@@ -189,13 +196,6 @@ function transform(m,p) {
           </tr>
         </tbody>
       </table>
-      <h1>
-        <span lang="hu">Nyitva tartás</span>
-        <span lang="en">Opening hours</span>
-      </h1>
-      <p lang="hu">Hétfőtől péntekig: 9–22h</p>
-      <p lang="en">Weekdays: 9 AM – 10 PM</p>
-
 
       <figure id="pro-cultura">
         <img loading="lazy" alt="Pro Cultura Award" src="images/2020/pro-cultura-web.jpg" />
