@@ -65,7 +65,7 @@
         <p>2890</p>
       </td>
       <th lang="en">
-        <p>Decadentic formule</p>
+        <p>Decadentica formule</p>
         <p>Starter <span>&amp;</span> soup <span>&amp;</span> main <span>&amp;</span> dessert</p>
       </th>
     </tr>
