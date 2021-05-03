@@ -94,8 +94,8 @@ function transform(m,p) {
         <label for="lang"><span class="hu">HU</span> / <span class="en">EN</span></label>
       </header>
 
-      <h1 id="menutext"><span lang="hu">Napi ajánlatok hétfőtől péntekig</span><span lang="en">Daily offers Monday to Friday</span></h1>
-      <p><span lang="hu">12 órától</span><span lang="en">From 12 PM</span></p>
+      <h1 id="menutext"><span lang="hu">Napi ajánlat</span><span lang="en">Daily offers</span></h1>
+      <p><span lang="hu">Hétfőtől péntekig 12 órától</span><span lang="en">Monday to Friday From 12 PM</span></p>
       <p id="menudate"><span lang="hu"></span><span lang="en"></span></p>
 <!--<h1>{d}</h1>-->
       {#each posts as {date, soup, menua, menub, lang, value}}
