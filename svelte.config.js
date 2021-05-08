@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 
 import { mdsvex } from "mdsvex";
 import { mdsvexConfig } from "./mdsvex.config.js";
@@ -9,12 +10,12 @@ const config = {
 		mdsvex(mdsvexConfig),
 	],
 	kit: {
-		adapter: adapter({
+		adapter: adapter(/*{
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
+		}*/),
 		target: 'body'
 	}
 };

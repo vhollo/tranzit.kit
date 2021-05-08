@@ -1,37 +1,37 @@
 <script context="module">
   const posts = import.meta.glob('../napimenu/*.md')
 
-let body = []
+  let body = []
 
-//console.log(posts)
-for (const path in posts) {
-  //body.push(posts[path]().then(({metadata}) => metadata))
-  
-  const push = posts[path]().then(({metadata}) => transform(metadata,path))
-  body.push(push)
-}
-export async function load({ page, fetch }) {
-  const posts = await Promise.all(body)
-  //console.log(Promise.all(body))
-  return {
-    props: {
-      posts
+  //console.log(posts)
+  for (const path in posts) {
+    //body.push(posts[path]().then(({metadata}) => metadata))
+    
+    const push = posts[path]().then(({metadata}) => transform(metadata,path))
+    body.push(push)
+  }
+  export async function load({ page, fetch }) {
+    const posts = await Promise.all(body)
+    //console.log(Promise.all(body))
+    return {
+      props: {
+        posts
+      }
     }
   }
-}
-function transform(m,p) {
-  m.soup = m.soup || ''
-  m.menua = m.menua || ''
-  m.menub = m.menub || ''
-  const s = p.split('.')
-  m.lang = s[s.length-2]
-  const d = new Date(m.date)
-  m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
-  m.value = d.valueOf() || 0
-  if (!(m.soup || m.menua || m.menub)) m.value = 0
-  //console.log(date.toLocaleDateString(y), { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
-  return m
-}
+  function transform(m,p) {
+    m.soup = m.soup || ''
+    m.menua = m.menua || ''
+    m.menub = m.menub || ''
+    const s = p.split('.')
+    m.lang = s[s.length-2]
+    const d = new Date(m.date)
+    m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+    m.value = d.valueOf() || 0
+    if (!(m.soup || m.menua || m.menub)) m.value = 0
+    //console.log(date.toLocaleDateString(y), { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+    return m
+  }
 </script>
 <script>
   import Artcafe from '$lib/Artcafe.svelte'
