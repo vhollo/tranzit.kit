@@ -135,7 +135,7 @@ function transform(m,p) {
               <p>Leves <span>&amp;</span> főétel <span>vagy</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>1890</p>
+              <p>2190</p>
             </td>
             <th lang="en">
               <p>Elegantsia formule</p>
@@ -148,7 +148,7 @@ function transform(m,p) {
               <p>Leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>2390</p>
+              <p>2690</p>
             </td>
             <th lang="en">
               <p>Intelligenzia formule</p>
@@ -161,7 +161,7 @@ function transform(m,p) {
               <p>Előétel <span>&amp;</span> leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>2890</p>
+              <p>3190</p>
             </td>
             <th lang="en">
               <p>Decadentica formule</p>
@@ -179,11 +179,11 @@ function transform(m,p) {
             </td>
             <td>
               <p></p>
-              <p>690</p>
-              <p>790</p>
-              <p>1190</p>
+              <p>890</p>
+              <p>990</p>
               <p>1390</p>
-              <p>750</p>
+              <p>1690</p>
+              <p>800</p>
             </td>
             <td lang="en">
               <p></p>

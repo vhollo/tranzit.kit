@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../svelte.kit"
+		},
+		{
+			"path": "../tranzit.sapper"
 		}
 	],
 	"settings": {}
