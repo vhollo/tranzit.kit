@@ -2,9 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../tranzit-mess.kit"
 		}
 	],
 	"settings": {}
