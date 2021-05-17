@@ -1,10 +1,12 @@
 <article id="elorendeles">
 
-  <h1><span lang="hu">Napi menü előrendelése</span><span lang="en">Preorder your daily meal</span></h1>
+  <h1><span lang="hu">Napi menü rendelése</span><span lang="en">Order your daily meal</span></h1>
 
-  <h2><span lang="hu">Kiszállítani nem tudjuk, de ha érte jössz, a megbeszélt időben készen lesz az
-      ebéded 11.30 és 19.00 között.</span><span lang="en">We can't deliver it, but between 11.30AM and 19PM we prepare your meal for the time you can drop
-      by</span></h2>
+  <h2><span lang="hu">Ha <a href="tel:+3612093070">telefonálsz</a>, a megbeszélt időben készen lesz a
+    rendelésed elvitelre.</span><span lang="en">We prepare your meal for the time you can drop
+    by. Call <a href="tel:+3612093070">+36 1 209 3070</a></span></h2>
+
+  <h2><span lang="hu"><a href="https://www.netpincer.hu/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">Netpincéren is rendelhetsz tőlünk!</a></span><span lang="en"><a href="https://www.netpincer.hu/en/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">You can order on Netpincér, too!</a></span></h2>
 </article> 
 
 <article id="rendezveny">

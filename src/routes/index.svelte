@@ -234,7 +234,7 @@
   </section>
 </main>
 <aside>
-  <pre><span>js-less spa </span><span>by <a href="mailto:me@vhollo.hu">me@vhollo.hu</a></span></pre>
+  <pre><span>Napfivér Holdnővér '2004 Kft. / 13330493-2-43</span><span>by <a href="mailto:studio@tranzitcafe.com">studio@tranzitcafe.com</a></span></pre>
 </aside>
 
 <footer>
