@@ -54,13 +54,15 @@
     <img loading="lazy" src="/images/remix/header.png" alt="header" />
     <label for=""><span>TRANZIT</span></label>
     <div>
+      <img src="images/2021punkosd.jpg" alt="pünkösd"/>
+
       <h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
       <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>
       <p><span lang="hu">Napi ajánlataink a <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook oldalunkon</a>!</span><span lang="en">See our dayly offers on our <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook page</a>!</span></p>
 
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
 
-      <p><span lang="hu">Hétfőtől szombatig: 9.00–22.00</span><span lang="en">Monday to Saturday: 9.00AM to 10.00PM</span></p>
+      <p><span lang="hu">Hétfőtől szombatig: 9.00–22.00<br>Vasárnap, ünnepek: zárva</span><span lang="en">Monday to Saturday: 9.00AM to 10.00PM<br>Sunday & Holidays: closed</span></p>
 
       <h5><span lang="hu">Cím:</span><span lang="en">Address:</span> <a rel="noopener" href="https://g.page/tranzitcafe?share">1114
           Budapest, Tranzit Art Café</a></h5>
