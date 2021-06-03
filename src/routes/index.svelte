@@ -54,7 +54,7 @@
     <img loading="lazy" src="/images/remix/header.png" alt="header" />
     <label for=""><span>TRANZIT</span></label>
     <div>
-      <img src="images/2021punkosd.jpg" alt="pünkösd"/><br>Nyitás: kedden!
+      <!--<img src="images/2021punkosd.jpg" alt="pünkösd"/><br>Nyitás: kedden!-->
 
       <h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
       <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>
