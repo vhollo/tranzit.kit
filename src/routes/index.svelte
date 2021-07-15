@@ -1,4 +1,5 @@
 <script context="module">
+  export const hydrate = false
   const posts = import.meta.glob('../napimenu/*.md')
 
   let body = []
