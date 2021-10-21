@@ -7,7 +7,7 @@
     //console.log(thenews)
 
     let amenu = []
-    let anews = []
+    //let anews = []
     let news = []
 
     for (const p in menus) {
