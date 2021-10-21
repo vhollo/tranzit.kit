@@ -1,26 +1,49 @@
 <script context="module">
   export const hydrate = false
-  const posts = import.meta.glob('../napimenu/*.md')
-
-  let body = []
-
-  //console.log(posts)
-  for (const path in posts) {
-    //body.push(posts[path]().then(({metadata}) => metadata))
-    
-    const push = posts[path]().then(({metadata}) => transform(metadata,path))
-    body.push(push)
-  }
+  //import { compile } from 'mdsvex'
   export async function load({ page, fetch }) {
-    const posts = await Promise.all(body)
-    //console.log(Promise.all(body))
+    const menus = import.meta.glob('../napimenu/*.md')
+    const thenews = import.meta.glob('../news/*.md')
+    //console.log(thenews)
+
+    let amenu = []
+    let anews = []
+    let news = []
+
+    for (const p in menus) {
+      const push = menus[p]().then(({metadata}) => transmenu(metadata,p))
+      amenu.push(push)
+    }
+    const menu = await Promise.all(amenu)
+
+    for (const p in thenews) {
+      //const push = thenews[p]().then(({metadata}) => transnews(metadata,p))
+      //anews.push(push)
+      const meta = await thenews[p]().then(({metadata}) => transnews(metadata,p))
+      const body = await thenews[p]()
+      news.push({...meta,...body.default.render()})
+    }
+    //const news = await Promise.all(anews)
+    //console.log('news:',news)
     return {
       props: {
-        posts
+        menu,
+        news
       }
     }
   }
-  function transform(m,p) {
+  async function transnews(m,p) {
+    //const transmenuedContent = await compile(m)
+    //m.html = transmenuedContent.code
+    //console.log(m)
+    const s = p.split('.')
+    m.lang = s[s.length-2]
+    const d = new Date(m.date)
+    //m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+    m.value = d.valueOf() || 0
+    return m
+  }
+  function transmenu(m,p) {
     m.soup = m.soup || ''
     m.menua = m.menua || ''
     m.menub = m.menub || ''
@@ -38,7 +61,8 @@
   import Artcafe from '$lib/Artcafe.svelte'
   import Bistro from '$lib/Bistro.svelte'
   import Etlap from '$lib/Etlap.svelte'
-  export let posts
+  export let menu, news
+  //console.log(news)
   let d = new Date(new Date(Date()).toDateString()).valueOf()
   //console.log(d)
 </script>
@@ -57,10 +81,17 @@
     <div>
       <!--<img src="images/2021punkosd.jpg" alt="pünkösd"/><br>Nyitás: kedden!-->
 
-      <h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
-      <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>
-      <p><span lang="hu">Napi ajánlataink a <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook oldalunkon</a>!</span><span lang="en">See our dayly offers on our <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook page</a>!</span></p>
-
+      <!--<h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
+      <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>-->
+      {#each news as {value, title, summary, lang, html}}
+      {#if d <= value}
+        <div lang="{lang}">
+          {#if title}<h2>{title}</h2>{/if}
+          {#if summary}<h3>{summary}</h3>{/if}
+          {#if html}{@html html}{/if}
+        </div>
+      {/if}
+      {/each}
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
 
       <p><span lang="hu">Hétfőtől péntekig: 9.00–22.00<br>Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Monday to Friday: 9.00AM to 10.00PM<br>Saturdays, Sundays & Holidays: closed</span></p>
@@ -103,35 +134,36 @@
       <h1 id="menutext"><span lang="hu">Napi ajánlat</span><span lang="en">Daily offers</span></h1>
       <p><span lang="hu">12 órától</span><span lang="en">From 12 PM</span></p>
       <p id="menudate"><span lang="hu"></span><span lang="en"></span></p>
-      {#each posts as {date, soup, menua, menub, lang, value}}
+      <p><span lang="hu">Napi ajánlatunk a <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook oldalunkon</a>!</span><span lang="en">See our dayly offers on our <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook page</a>!</span></p>
+
+      {#each menu as {date, soup, menua, menub, lang, value}}
       {#if d <= value}
       <aside lang="{lang}">
         <h2>{date}</h2>
         {#if soup}
-        <h3><span lang="hu">Leves</span><span lang="en">Soup</span></h3>
-        <p>
-          {soup}
-        </p>
+          <h3><span lang="hu">Leves</span><span lang="en">Soup</span></h3>
+          <p>
+            {soup}
+          </p>
         {/if}
         {#if menua}
-        <h3><span lang="hu">"A" Menü</span><span lang="en">Menu A</span></h3>
-        <p>
-          {menua}
-        </p>
+          <h3><span lang="hu">"A" Menü</span><span lang="en">Menu A</span></h3>
+          <p>
+            {menua}
+          </p>
         {/if}
         {#if menub}
-        <h3><span lang="hu">"B" Menü</span><span lang="en">Menu B</span></h3>
-        <p>
-          {menub}
-        </p>
+          <h3><span lang="hu">"B" Menü</span><span lang="en">Menu B</span></h3>
+          <p>
+            {menub}
+          </p>
         {/if}
       </aside>
       {/if}
       {/each}
     
-
       <table id="formules">
-        <tbody>
+        <tamenu>
           <tr>
             <th lang="hu">
               <p>Elegancia formula</p>
@@ -197,7 +229,7 @@
               <p>Daily dessert</p>
             </td>
           </tr>
-        </tbody>
+        </tamenu>
       </table>
 
       <figure id="pro-cultura">
@@ -266,7 +298,7 @@
       </svg></span><span>BISTRO</span></label>
   <label class="checked2" for="checked2"><span class="menuicon"><svg xmlns="http://www.w3.org/2000/svg" width="32"
         height="32" viewBox="0 0 32 32">
-        <radialGradient id="ba" cx="-188" cy="72" r="12.165" gradientTransform="matrix(1 0 0 -1 204 88)"
+        <radialGradient id="ba" cx="-188" cy="72" r="12.165" gradienttransmenu="matrix(1 0 0 -1 204 88)"
           gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#1c1b23" stop-opacity=".6" />
           <stop offset="1" stop-color="#1c1b23" />

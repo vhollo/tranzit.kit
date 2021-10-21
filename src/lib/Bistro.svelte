@@ -6,7 +6,7 @@
     rendelésed elvitelre.</span><span lang="en">We prepare your meal for the time you can drop
     by. Call <a href="tel:+3612093070">+36 1 209 3070</a></span></h2>
 
-  <h2><span lang="hu"><a href="https://www.netpincer.hu/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">Netpincéren is rendelhetsz tőlünk!</a></span><span lang="en"><a href="https://www.netpincer.hu/en/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">You can order on Netpincér, too!</a></span></h2>
+  <h2><span lang="hu"><a href="https://www.foodpanda.hu/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">FOODPANDÁN is rendelhetsz tőlünk!</a></span><span lang="en"><a href="https://www.foodpanda.hu/en/restaurant/new/ear0/tranzit-art-cafe" rel="noopener" target="_blank">You can order on FOODPANDA, too!</a></span></h2>
 </article> 
 
 <article id="rendezveny">

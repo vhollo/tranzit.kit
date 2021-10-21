@@ -11,7 +11,10 @@ const config = {
 	],
 	kit: {
 		adapter: adapt(),
-		target: 'body'
+		target: 'body'/*, /// lehet, h kellene
+		prerender: {
+			force: true
+		}*/
 	}
 };
 
