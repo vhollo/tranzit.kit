@@ -1,5 +1,5 @@
 <script context="module">
-  //export const hydrate = false
+  export const hydrate = false
   //import { compile } from 'mdsvex'
   export async function load({ page, fetch }) {
     const menus = import.meta.glob('../napimenu/*.md')
@@ -21,7 +21,8 @@
       //anews.push(push)
       const meta = await thenews[p]().then(({metadata}) => transnews(metadata,p))
       const body = await thenews[p]()
-      news.push({...meta,...body.default.render()})
+      console.log('news:',meta,body)
+      if (body.default) news.push({...meta,...body.default.render()})
     }
     //const news = await Promise.all(anews)
     //console.log('news:',news)
@@ -62,7 +63,7 @@
   import Bistro from '$lib/Bistro.svelte'
   import Etlap from '$lib/Etlap.svelte'
   export let menu, news
-  //console.log(news)
+  console.log(news)
   let d = new Date(new Date(Date()).toDateString()).valueOf()
   //console.log(d)
 </script>

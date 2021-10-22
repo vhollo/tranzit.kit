@@ -11,10 +11,11 @@ const config = {
 	],
 	kit: {
 		adapter: adapt(),
-		target: 'body'/*, /// lehet, h kellene
+		target: 'body', /// lehet, h kellene
 		prerender: {
-			force: true
-		}*/
+			//force: true
+			onError: 'continue'
+		}
 	}
 };
 
