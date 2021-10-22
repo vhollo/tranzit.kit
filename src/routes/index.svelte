@@ -1,5 +1,5 @@
 <script context="module">
-  export const hydrate = false
+  //export const hydrate = false
   //import { compile } from 'mdsvex'
   export async function load({ page, fetch }) {
     const menus = import.meta.glob('../napimenu/*.md')
