@@ -262,6 +262,8 @@ thead tr:first-of-type td:first-of-type p, thead tr:first-of-type td:nth-of-type
   font-family: 'Zing';
   text-rendering: optimizeLegibility;
   text-shadow: -4px 3px snow;
+  text-transform: uppercase;
+  font-style: italic;
 }
 /* #menutext {
   font-size: 3.5rem;
@@ -275,6 +277,8 @@ h1 {
   text-rendering: optimizeLegibility;
   text-shadow: -4px 3px snow;
   margin-bottom: 0;
+  text-transform: uppercase;
+  font-style: italic;
 }
 /* #menutext + p {
   margin-top: -3rem;

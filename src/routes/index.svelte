@@ -21,7 +21,7 @@
       //anews.push(push)
       const meta = await thenews[p]().then(({metadata}) => transnews(metadata,p))
       const body = await thenews[p]()
-      console.log('news:',meta,body)
+      //console.log('news:',meta,body)
       if (body.default) news.push({...meta,...body.default.render()})
     }
     //const news = await Promise.all(anews)
@@ -63,9 +63,9 @@
   import Bistro from '$lib/Bistro.svelte'
   import Etlap from '$lib/Etlap.svelte'
   export let menu, news
-  console.log(news)
+  //console.log(menu)
   let d = new Date(new Date(Date()).toDateString()).valueOf()
-  //console.log(d)
+  console.log(d)
 </script>
 
 <input id="checked0" name="change" type="radio" checked>
@@ -237,7 +237,7 @@
         <img loading="lazy" alt="Pro Cultura Award" src="images/2020/pro-cultura-web.jpg" />
         <figcaption><span lang="hu">Pro Cultura-díj</span><span lang="en">Pro Cultura Award</span></figcaption>
       </figure>
-      <iframe title="lasszik Reggeli - 2020.01.13. Egri Orsolya" scrolling="no" id="hearthis_at_track_4270004" width="100%" height="130"
+      <iframe loading="lazy" title="lasszik Reggeli - 2020.01.13. Egri Orsolya" scrolling="no" id="hearthis_at_track_4270004" width="100%" height="130"
         src="https://app.hearthis.at/embed/4270004/transparent/?hcolor=&color=&style=2&block_size=2&block_space=1&background=0&waveform=0&cover=1&autoplay=0&css="
         frameborder="0" allowtransparency allow="autoplay">
         <p>Listen to <a rel="noopener" href="https://hearthis.at/klasszikradio92.1/klasszik-reggeli-2020.01.13.-egri-orsolya/"
@@ -247,7 +247,7 @@
       </iframe>
 
 
-      <iframe title="Facebook/tranzitcafe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftranzitcafe%2F&tabs=timeline%2Cevents&width=360&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=122069431235370" width="360" height="640" style="margin:0 -2rem;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe loading="lazy" title="Facebook/tranzitcafe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftranzitcafe%2F&tabs=timeline%2Cevents&width=360&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=122069431235370" width="360" height="640" style="margin:0 -2rem;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
   </section>
 
