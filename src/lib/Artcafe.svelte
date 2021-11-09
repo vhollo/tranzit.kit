@@ -454,7 +454,7 @@ Hétfőn és csütörtökön felirattal, kedden szinkronnal.</p>
 <p><em>Finn filmek este 7 órától</em></p>
 <p>Szeptember 21.<br>
 <em>Az Anilogue díjnyertes finn rövidfilmjei</em><br>
-<a href="http://anilogue.com/" target="_blank">http://anilogue.com/</a>
+<a href="https://anilogue.com/" target="_blank">https://anilogue.com/</a>
 </p>
 <p>Szeptember 24.<br>
 <em>Vad Észak – mese az Ezer Tó Országából</em><br>
@@ -623,7 +623,7 @@ Hétfőn és csütörtökön felirattal, kedden szinkronnal.</p>
       <p>A belépés díjtalan.</p>
 
       <p>#anilogue<br>
-        <a rel="noopener" href="http://anilogue.com/" target="_blank">www.anilogue.com</a></p>
+        <a rel="noopener" href="https://anilogue.com/" target="_blank">www.anilogue.com</a></p>
     </div>
     <div lang="en">
       <p>The tour will end at Tranzit on the 23rd of August at 8 pm with the short films session.</p>
@@ -674,7 +674,7 @@ Hétfőn és csütörtökön felirattal, kedden szinkronnal.</p>
 
       <p>The entry is free.</p>
 
-      <p><a rel="noopener" href="http://anilogue.com/" target="_blank">www.anilogue.com</a><br>
+      <p><a rel="noopener" href="https://anilogue.com/" target="_blank">www.anilogue.com</a><br>
         #anilogue</p>&nbsp;
     </div>
 

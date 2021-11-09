@@ -270,7 +270,7 @@
   </section>
 </main>
 <aside>
-  <pre><span>Napfivér Holdnővér '2004 Kft. / 13330493-2-43</span><span>by <a href="mailto:studio@tranzitcafe.com">studio@tranzitcafe.com</a></span></pre>
+  <pre><span>Napfivér Holdnővér '2004 Kft. / 13330493-2-43</span><span> <a href="mailto:studio@tranzitcafe.com">studio@tranzitcafe.com</a></span></pre>
 </aside>
 
 <footer>
@@ -278,7 +278,7 @@
     <div id="logo"></div>
   </label>
 
-  <label class="checked1" for="checked1"><span class="menuicon"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+  <label class="checked1" for="checked1"><span class="menuicon"><svg xmlns="https://www.w3.org/2000/svg" width="32"
         height="32" viewBox="0 0 32 32">
         <radialGradient id="aa" cx="26.131" cy="10.075" r=".198" gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#1c1b22" stop-opacity=".6" />
@@ -297,7 +297,7 @@
         </radialGradient>
         <path fill="url(#ac)" d="M26.03 10l-.17.15L26 10h.03z" />
       </svg></span><span>BISTRO</span></label>
-  <label class="checked2" for="checked2"><span class="menuicon"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+  <label class="checked2" for="checked2"><span class="menuicon"><svg xmlns="https://www.w3.org/2000/svg" width="32"
         height="32" viewBox="0 0 32 32">
         <radialGradient id="ba" cx="-188" cy="72" r="12.165" gradienttransmenu="matrix(1 0 0 -1 204 88)"
           gradientUnits="userSpaceOnUse">
@@ -337,7 +337,7 @@
         </radialGradient>
         <path fill="url(#bg)" d="M22 23s0 1-1 1-1-1-5-1h-2.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5H21s1 0 1 1z" />
       </svg></span><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
-  <label class="checked3" for="checked3"><span class="menuicon"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+  <label class="checked3" for="checked3"><span class="menuicon"><svg xmlns="https://www.w3.org/2000/svg" width="32"
         height="32" viewBox="0 0 32 32">
         <radialGradient id="ca" cx="16.5" cy="16.109" r="10.697" gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#1c1a22" stop-opacity=".2" />

@@ -31,7 +31,7 @@
     </ul>
     <h2>Tortarendel&eacute;s</h2>
     <p>S&uuml;tem&eacute;ny- &eacute;s tortabesz&aacute;ll&iacute;t&oacute;nk: <b>&Eacute;des S&aacute;ri</b> (<a
-        href="http://www.edessari.hu/" target="_blank" rel="friends noopener">www.edessari.hu</a>).
+        href="https://www.edessari.hu/" target="_blank" rel="friends noopener">www.edessari.hu</a>).
       Sz&uuml;let&eacute;snapra tőle érdemes egy jónagy tortát rendelni.</p>
     <h2>Tranzit Catering</h2>
     <h3>Fogad&oacute; falatok &eacute;s italok</h3>
