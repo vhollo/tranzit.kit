@@ -65,7 +65,7 @@
   export let menu, news
   //console.log(menu)
   let d = new Date(new Date(Date()).toDateString()).valueOf()
-  console.log(d)
+  //console.log(d)
 </script>
 
 <input id="checked0" name="change" type="radio" checked>

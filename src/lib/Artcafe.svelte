@@ -1,3 +1,8 @@
+<article>
+<h1>Kiállítás</h1>
+<img alt="" src="/images/2022/tranzit_2022_0404.jpg" style="max-width: 100%;"/>
+</article>
+
 <h1>Vendégeink</h1>
 
 <article id="abodyrita">

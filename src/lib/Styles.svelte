@@ -322,11 +322,11 @@ aside pre {
   margin: 1rem;
 }
 
-article img {
+/*article img {
   max-width: 50%;
   float: right;
   padding-left: 1rem;
-}
+}*/
 
 @media (max-width: 666px) {
   label a span.menuicon { display: block; }
@@ -519,11 +519,11 @@ article img {
     margin: -4rem calc(-50vw - 4rem) 0 -4rem;
     animation: hue-rotate 40s infinite;
   }
-  article img {
+  /*article img {
     max-width: 50%;
     float: right;
     padding-left: 1rem;
-  }
+  }*/
   /* label + div {
     padding-boittom: 64px;
   } */
