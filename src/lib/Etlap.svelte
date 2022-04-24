@@ -36,7 +36,7 @@
             <p>Leves <span>&amp;</span> főétel <span>vagy</span> főétel <span>&amp;</span> desszert</p>
           </th>
           <td>
-            <p>2190</p>
+            <p>2630</p>
           </td>
           <th lang="en">
             <p>Elegantsia formule</p>
@@ -49,7 +49,7 @@
             <p>Leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
           </th>
           <td>
-            <p>2690</p>
+            <p>3230</p>
           </td>
           <th lang="en">
             <p>Intelligenzia formule</p>
@@ -62,7 +62,7 @@
             <p>Előétel <span>&amp;</span> leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
           </th>
           <td>
-            <p>3190</p>
+            <p>3830</p>
           </td>
           <th lang="en">
             <p>Decadentic formule</p>
@@ -80,11 +80,11 @@
           </td>
           <td>
             <p></p>
-            <p>890</p>
-            <p>990</p>
-            <p>1390</p>
-            <p>1690</p>
-            <p>800</p>
+            <p>1070</p>
+            <p>1190</p>
+            <p>1670</p>
+            <p>2030</p>
+            <p>1000</p>
           </td>
           <td lang="en">
             <p></p>
@@ -134,7 +134,7 @@
             <p>Bazsalikomos salátával, fűszeres burgonyával</p>
           </td>
           <td>
-            <p>3190</p>
+            <p>3830</p>
           </td>
           <td lang="en">
             <p>Chicken breast in&#160;cheese crust</p>
@@ -147,10 +147,10 @@
             <p>Gyümölcs chutney-val, vajas pirított burgonyával</p>
           </td>
           <td>
-            <p>3290</p>
+            <p>3950</p>
           </td>
           <td lang="en">
-            <p>Duck breatst confit</p>
+            <p>Duck leg confit</p>
             <p>With fruit&#160;chutney and potatoes</p>
           </td>
         </tr>
@@ -160,7 +160,7 @@
             <p>Spenótos grillzöldséggel</p>
           </td>
           <td>
-            <p>3590</p>
+            <p>4310</p>
           </td>
           <td lang="en">
             <p>Salmon fillet</p>
@@ -173,7 +173,7 @@
             <p>Mézes-diós-aszalt gyümölcsös salátaágyon</p>
           </td>
           <td>
-            <p>3290</p>
+            <p>3950</p>
           </td>
           <td lang="en">
             <p>French crusty goat cheese</p>
@@ -206,7 +206,7 @@
             <p>Angol zeller, kaliforniai&#160;paprika, zsenge sárgarépa kétféle mártogatóval</p>
           </td>
           <td>
-            <p>1890</p>
+            <p>2270</p>
           </td>
           <td lang="en">
             <p>Vegetable dip</p>
@@ -219,7 +219,7 @@
             <p>Vágott vegyes zöldség, tortillachips, pirított tortilla négyféle mártogatóval</p>
           </td>
           <td>
-            <p>3280</p>
+            <p>3940</p>
           </td>
           <td lang="en">
             <p>Friends&apos; bowl for 4</p>
@@ -232,7 +232,7 @@
             <p>Házi salsával és Tranzit mártogatóval</p>
           </td>
           <td>
-            <p>1890</p>
+            <p>2270</p>
           </td>
           <td lang="en">
             <p>Tortilla chips</p>
@@ -245,7 +245,7 @@
             <p>Tranzit mártogatóval</p>
           </td>
           <td>
-            <p>1590</p>
+            <p>1910</p>
           </td>
           <td lang="en">
             <p>Rosemary steak&#160;potatoes</p>
@@ -259,11 +259,54 @@
               tortilla</p>
           </td>
           <td>
-            <p>3480</p>
+            <p>4180</p>
           </td>
           <td lang="en">
             <p>Mediterranean Savory snacks for 4</p>
             <p>Olives, sundried tomatoes, stuffed grape leaves, pepper stuffed with feta cheese, tortilla toast</p>
+          </td>
+        </tr>
+        <tr>
+          <th lang="hu">
+            <p>Extra adagok</p>
+          </th>
+          <td>
+          </td>
+          <th lang="en">
+            <p>Extra portions</p>
+          </th>
+        </tr>
+        <tr>
+          <td lang="hu">
+            <p><span>*&#160;</span>Pirított csirkecsíkok</p>
+          </td>
+          <td>
+            <p>900</p>
+          </td>
+          <td lang="en">
+            <p><span>*&#160;</span>Pirított csirkecsíkok</p>
+          </td>
+        </tr>
+        <tr>
+          <td lang="hu">
+            <p><span>*&#160;</span>Steak burgonya</p>
+          </td>
+          <td>
+            <p>900</p>
+          </td>
+          <td lang="en">
+            <p><span>*&#160;</span>Steak potatoes</p>
+          </td>
+        </tr>
+        <tr>
+          <td lang="hu">
+            <p><span>*&#160;</span>Füstölt lazac</p>
+          </td>
+          <td>
+            <p>1200</p>
+          </td>
+          <td lang="en">
+            <p><span>*&#160;</span>Smoked salmon</p>
           </td>
         </tr>
       </tbody>
@@ -1188,7 +1231,7 @@
             <p>Sonka, 2 tojás, kevert idénysaláta, pirítós</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>Ham<span>&amp;</span>eggs</p>
@@ -1201,7 +1244,7 @@
             <p>Bacon, 2 tojás, kevert idénysaláta, pirítós</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>Bacon<span>&amp;</span>eggs</p>
@@ -1214,7 +1257,7 @@
             <p>Fokhagymás olívaolajon párolt friss spenótlevél, 2 tojás, kevert idénysaláta, pirítós</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>Spinach<span>&amp;</span>eggs</p>
@@ -1228,7 +1271,7 @@
             </p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>Eggs breakfast</p>
@@ -1242,7 +1285,7 @@
             <p>1 pár sült virsli, torma, mustár, kevert idénysaláta, pirítós</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>Vienna sausage</p>
@@ -1255,7 +1298,7 @@
             <p>Roppanós bécsi virsli átsütve, bagettben, salátaágyon</p>
           </td>
           <td>
-            <p>1490</p>
+            <p>1790</p>
           </td>
           <td lang="en">
             <p>Hot dog</p>
@@ -1270,7 +1313,7 @@
               <br /><span>*&#160;</span>Szalámis-cheddar sajtos</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>French toast light</p>
@@ -1285,7 +1328,7 @@
             <p>Humusz, olíva, szárított paradicsom, szezonális grillzöldségek, piritós</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Mediterranean breakfast</p>
@@ -1298,14 +1341,14 @@
             <p>4 db vajas mini-croissant, vaj, méz, házi lekvár</p>
           </td>
           <td>
-            <p>1690</p>
+            <p>2030</p>
           </td>
           <td lang="en">
             <p>French breakfast</p>
             <p>4 mini croissants, butter, honey, jam</p>
           </td>
         </tr>
-        <tr>
+        <!-- tr>
           <td lang="hu">
             <p>Müzlikehely</p>
             <p>Natúr joghurt friss gyümölcsökkel</p>
@@ -1317,27 +1360,27 @@
             <p>Muesli bowl</p>
             <p>Plain yoghurt with fresh fruit</p>
           </td>
-        </tr>
+        </tr -->
         <tr>
           <td></td>
           <td></td>
           <td></td>
         </tr>
         <tr>
-          <td lang="hu">
-            <p>Választható extra feltétek</p>
-          </td>
+          <th lang="hu">
+            <p>Extra feltétek</p>
+          </th>
           <td></td>
-          <td lang="en">
-            <p>Optional extra toppings</p>
-          </td>
+          <th lang="en">
+            <p>Extra toppings</p>
+          </th>
         </tr>
         <tr>
           <td lang="hu">
             <p><span>*&#160;</span>Hagyma</p>
           </td>
           <td>
-            <p>200</p>
+            <p>300</p>
           </td>
           <td lang="en">
             <p><span>*&#160;</span>Onion</p>
@@ -1346,38 +1389,49 @@
         <tr>
           <td lang="hu">
             <p><span>*&#160;</span>Sajt <br /><span>*&#160;</span>Sonka <br /><span>*&#160;</span>Bacon
-              <br /><span>*&#160;</span>Tojás <br /><span>*&#160;</span>Vegyes zöldség</p>
+              <br /><span>*&#160;</span>Vegyes zöldség</p>
+          </td>
+          <td>
+            <p>600</p>
+          </td>
+          <td lang="en">
+            <p><span>*&#160;</span>Cheese <br /><span>*&#160;</span>Ham <br /><span>*&#160;</span>Bacon
+              <br /><span>*&#160;</span>Mixed vegetables</p>
+          </td>
+        </tr>
+        <tr>
+          <td lang="hu">
+            <p><span>*&#160;</span>Tojás</p>
           </td>
           <td>
             <p>400</p>
           </td>
           <td lang="en">
-            <p><span>*&#160;</span>Cheese <br /><span>*&#160;</span>Ham <br /><span>*&#160;</span>Bacon
-              <br /><span>*&#160;</span>Egg <br /><span>*&#160;</span>Mixed vegetables</p>
+            <p><span>*&#160;</span>Egg</p>
           </td>
         </tr>
         <tr>
           <td lang="hu">
-            <p><span>*&#160;</span>Extra dip <br /><span>*&#160;</span>Tejföl <br /><span>*&#160;</span>Saláta</p>
+            <p><span>*&#160;</span>Vegyes zöldség <br /><span>*&#160;</span>Saláta</p>
           </td>
           <td>
-            <p>700</p>
+            <p>900</p>
           </td>
           <td lang="en">
-            <p><span>*&#160;</span>Extra dip <br /><span>*&#160;</span>Sour cream <br /><span>*&#160;</span>Salad</p>
+            <p><span>*&#160;</span>Mixed vegetables <br /><span>*&#160;</span>Salad</p>
           </td>
         </tr>
         <tr>
           <td lang="hu">
             <p><span>*&#160;</span>Majonéz <br /><span>*&#160;</span>Mustár <br /><span>*&#160;</span>Ketchup
-              <br /><span>*&#160;</span>Vaj</p>
+              <br /><span>*&#160;</span>Tejföl<br /><span>*&#160;</span>Vaj</p>
           </td>
           <td>
-            <p>300</p>
+            <p>400</p>
           </td>
           <td lang="en">
             <p><span>*&#160;</span>Mayo <br /><span>*&#160;</span>Mustard <br /><span>*&#160;</span>Ketchup
-              <br /><span>*&#160;</span>Butter</p>
+              <br /><span>*&#160;</span>Sour cream<br /><span>*&#160;</span>Butter</p>
           </td>
         </tr>
       </tbody>
@@ -1409,7 +1463,7 @@
               <br /><span>*&#160;</span>Grillzöldséges <br /><span>*&#160;</span>Négysajtos</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Baguette</p>
@@ -1424,7 +1478,7 @@
             <p>Bazslikom pesto, mozzarella, paradicsom, kevert idénysaláta</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Mozzarella baguette</p>
@@ -1437,7 +1491,7 @@
             <p>Pirított bacon, grillezett lilahagyma, sajt, paradicsom, jalapeño, kevert idénysaláta</p>
           </td>
           <td>
-            <p>2190</p>
+            <p>2630</p>
           </td>
           <td lang="en">
             <p>Spicy baguette</p>
@@ -1450,7 +1504,7 @@
             <p>Bazslikomos paraj, sonka, füstölt sajt, paradicsom, kevert idénysaláta</p>
           </td>
           <td>
-            <p>2190</p>
+            <p>2630</p>
           </td>
           <td lang="en">
             <p>Spinach baguette</p>
@@ -1464,7 +1518,7 @@
             <p><span>*&#160;</span>Tonhalas <br /><span>*&#160;</span>Füstölt lazacos</p>
           </td>
           <td>
-            <p>2190</p>
+            <p>2630</p>
           </td>
           <td lang="en">
             <p>Omega-3 baguette</p>
@@ -1478,7 +1532,7 @@
             <p>Napon szárított paradicsom fokhagymával, friss bazsalikom, kevert idénysaláta, pirított bagett</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Tranzit bruscetta</p>
@@ -1492,7 +1546,7 @@
               pirított bagett</p>
           </td>
           <td>
-            <p>2590</p>
+            <p>3110</p>
           </td>
           <td lang="en">
             <p>Black Forest bruscetta</p>
@@ -1506,7 +1560,7 @@
             <p>Toast kenyér, sonka, bacon, sajt, paradicsom, majonéz</p>
           </td>
           <td>
-            <p>2590</p>
+            <p>3110</p>
           </td>
           <td lang="en">
             <p>Club sandwich with eggs</p>
@@ -1543,7 +1597,7 @@
             <p>Wokban sült vegyes zöldségek&#160;salátaágyon, édes-csípős szósszal</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Thai salad</p>
@@ -1552,13 +1606,13 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Pirított csirkecsíkokkal</p>
+            <p><span>☞ </span>Pirított csirkecsíkokkal</p>
           </td>
           <td>
-            <p>2690</p>
+            <p>3230</p>
           </td>
           <td lang="en">
-            <p>With roasted chicken</p>
+            <p><span>☞ </span>With roasted chicken</p>
           </td>
         </tr>
         <tr>
@@ -1567,7 +1621,7 @@
             <p>Mozzarella, paradicsom és friss bazsalikom kevert salátaágyon</p>
           </td>
           <td>
-            <p>2090</p>
+            <p>2510</p>
           </td>
           <td lang="en">
             <p>Caprese salad</p>
@@ -1576,13 +1630,13 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Feketeerdő sonkával</p>
+            <p><span>☞ </span>Feketeerdő sonkával</p>
           </td>
           <td>
-            <p>2690</p>
+            <p>3230</p>
           </td>
           <td lang="en">
-            <p>With Black Forest ham</p>
+            <p><span>☞ </span>With Black Forest ham</p>
           </td>
         </tr>
         <tr>
@@ -1591,7 +1645,7 @@
             <p>Jégsaláta, uborka, lilahagyma, koktélparadicsom, olíva, fetasajt</p>
           </td>
           <td>
-            <p>2290</p>
+            <p>2750</p>
           </td>
           <td lang="en">
             <p>Greek salad</p>
@@ -1600,13 +1654,13 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Roston sült csirkecsíkokkal</p>
+            <p><span>☞ </span>Roston sült csirkecsíkokkal</p>
           </td>
           <td>
-            <p>2890</p>
+            <p>3470</p>
           </td>
           <td lang="en">
-            <p>With roasted chicken</p>
+            <p><span>☞ </span>With roasted chicken</p>
           </td>
         </tr>
         <tr>
@@ -1615,7 +1669,7 @@
             <p>Bazslikomos spenótlevelek, koktélparadicsom, mézzel-mustárral grillezett csirkecsíkok</p>
           </td>
           <td>
-            <p>2290</p>
+            <p>2750</p>
           </td>
           <td lang="en">
             <p>Honey-mustard chicken</p>
@@ -1629,7 +1683,7 @@
               dresszinggel locsolva</p>
           </td>
           <td>
-            <p>2990</p>
+            <p>3590</p>
           </td>
           <td lang="en">
             <p>Orange and Salmon salad</p>
@@ -1642,7 +1696,7 @@
             <p>Tonhalkrém salátaágyon olívával, koktélparadicsommal, cézáröntettel</p>
           </td>
           <td>
-            <p>2290</p>
+            <p>2750</p>
           </td>
           <td lang="en">
             <p>Tuna salad</p>
@@ -1656,7 +1710,7 @@
               kruton</p>
           </td>
           <td>
-            <p>2290</p>
+            <p>2750</p>
           </td>
           <td lang="en">
             <p>Grilled caesar salad</p>
@@ -1670,7 +1724,7 @@
             <p>Római saláta, koktélparadicsom, füstölt lazac, cézáröntet, reszelt parmezán, fokhagymás kruton</p>
           </td>
           <td>
-            <p>2890</p>
+            <p>3470</p>
           </td>
           <td lang="en">
             <p>Smoked salmon caesar</p>
@@ -1684,7 +1738,7 @@
               vitaminsaláta-ágyon</p>
           </td>
           <td>
-            <p>3190</p>
+            <p>3830</p>
           </td>
           <td lang="en">
             <p>King prawn salad</p>
@@ -1722,7 +1776,7 @@
             <p>Grillezett idényzöldségekkel, sajttal</p>
           </td>
           <td>
-            <p>2490</p>
+            <p>2990</p>
           </td>
           <td lang="en">
             <p>Vegetable quesadilla</p>
@@ -1735,7 +1789,7 @@
             <p>Grillezett csirkecsíkokkal, salátával, sajttal</p>
           </td>
           <td>
-            <p>2690</p>
+            <p>3230</p>
           </td>
           <td lang="en">
             <p>Chicken quesadilla</p>
@@ -1748,7 +1802,7 @@
             <p>Pikáns zöldségraguval, sajttal</p>
           </td>
           <td>
-            <p>2490</p>
+            <p>2990</p>
           </td>
           <td lang="en">
             <p>Mexican quesadilla</p>
@@ -1757,13 +1811,13 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Grillezett csirkecsíkokkal</p>
+            <p><span>☞ </span>Grillezett csirkecsíkokkal</p>
           </td>
           <td>
-            <p>3090</p>
+            <p>3710</p>
           </td>
           <td lang="en">
-            <p>With grilled chicken</p>
+            <p><span>☞ </span>With grilled chicken</p>
           </td>
         </tr>
         <tr>
@@ -1772,7 +1826,7 @@
             <p>4 féle sajttal, salátával, paradicsommal</p>
           </td>
           <td>
-            <p>2490</p>
+            <p>2990</p>
           </td>
           <td lang="en">
             <p>4-cheese quesadilla</p>
@@ -1809,7 +1863,7 @@
             <p>Pirított baconnel, sonkával, grillezett lilahagymával, paradicsommal, jalapeñoval, sajttal</p>
           </td>
           <td>
-            <p>2790</p>
+            <p>3350</p>
           </td>
           <td lang="en">
             <p>Picant quesadilla</p>
@@ -1822,7 +1876,7 @@
             <p>Tonhalkrémmel, salátával, sajttal</p>
           </td>
           <td>
-            <p>2790</p>
+            <p>3350</p>
           </td>
           <td lang="en">
             <p>Tuna quesadilla</p>
@@ -1835,7 +1889,7 @@
             <p>Kecskesajttal, napon szárított paradicsommal, bazsalikomos, rukkolás salátával</p>
           </td>
           <td>
-            <p>2790</p>
+            <p>27335090</p>
           </td>
           <td lang="en">
             <p>Goat cheese quesadilla</p>
@@ -1848,7 +1902,7 @@
           <td></td>
         </tr>
         <tr>
-          <td lang="hu">
+          <th lang="hu">
             <p>Választható öntetek</p>
             <p><span>*&#160;</span>Salsa (enyhén csípős)</p>
             <p><span>*&#160;</span>Bazsalikompesto</p>
@@ -1857,11 +1911,11 @@
             <p><span>*&#160;</span>Rokfortöntet</p>
             <p><span>*&#160;</span>Guacamole</p>
             <p><span>*&#160;</span>„Tranzit” pikáns kenegető</p>
-          </td>
+          </th>
           <td>
-            <p>700</p>
+            <p>840</p>
           </td>
-          <td lang="en">
+          <th lang="en">
             <p>Optional extra dips</p>
             <p><span>*&#160;</span>Salsa (slightly spicy)</p>
             <p><span>*&#160;</span>Basil pesto</p>
@@ -1870,7 +1924,7 @@
             <p><span>*&#160;</span>Blue cheese dressing</p>
             <p><span>*&#160;</span>Guacamole</p>
             <p><span>*&#160;</span>Piquant dip</p>
-          </td>
+          </th>
         </tr>
       </tbody>
     </table>
@@ -1910,24 +1964,24 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Grimbergen Double Ambrée <span>(0,33 l)</span></p>
+            <p>Kronenburg Búza <span>(0,33 l)</span></p>
           </td>
           <td>
             <p>1290</p>
           </td>
           <td lang="en">
-            <p>Grimbergen Double Ambrée <span>(0.33 l)</span></p>
+            <p>Kronenburg Blanc <span>(0.33 l)</span></p>
           </td>
         </tr>
         <tr>
           <td lang="hu">
-            <p>Gösser Natur Zitrone 2% <span>(0,33 l)</span></p>
+            <p>Fóti kézműves Meggy <span>(0,33 l)</span></p>
           </td>
           <td>
             <p>880</p>
           </td>
           <td lang="en">
-            <p>Gösser Natur Zitrone 2% <span>(0.33 l)</span></p>
+            <p>Fóti Sour Cherry <span>(0.33 l)</span></p>
           </td>
         </tr>
         <tr>
@@ -2084,13 +2138,13 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Szeremley Olaszrizling </p>
+            <p>Pátzay Rizling </p>
           </td>
           <td>
             <p>620 <span>/</span> 4600</p>
           </td>
           <td lang="en">
-            <p>Szeremley Olaszrizling </p>
+            <p>Pátzay Rizling </p>
           </td>
         </tr>
         <tr>
@@ -2475,6 +2529,17 @@
           </td>
         </tr>
         <tr>
+          <td lang="hu">
+            <p>Baileys Irish Cream</p>
+          </td>
+          <td>
+            <p>460 <span>/</span> 920</p>
+          </td>
+          <td lang="en">
+            <p>Baileys Irish Cream</p>
+          </td>
+        </tr>
+        <tr>
           <th lang="hu">
             <p>Rum</p>
           </th>
@@ -2611,13 +2676,15 @@
         </tr>
         <tr>
           <td lang="hu">
-            <p>Zwack Unicum</p>
+            <p>Zwack</p>
+            <p><span>*&#160;</span>Unicum <br /><span>*&#160;</span>Unicum Szilva <br /><span>*&#160;</span>Barista</p>
           </td>
           <td>
             <p>460 <span>/</span> 920</p>
           </td>
           <td lang="en">
-            <p>Zwack Unicum</p>
+            <p>Zwack</p>
+            <p><span>*&#160;</span>Unicum <br /><span>*&#160;</span>Unicum Plum <br /><span>*&#160;</span>Barista</p>
           </td>
         </tr>
         <tr>
