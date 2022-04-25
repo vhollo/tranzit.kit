@@ -1,7 +1,7 @@
 import { mdsvex } from "mdsvex";
 import { mdsvexConfig } from "./mdsvex.config.js";
-//import adapt from '@sveltejs/adapter-static';
-import adapt from '@sveltejs/adapter-netlify';
+import adapt from '@sveltejs/adapter-static';
+//import adapt from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,8 +13,8 @@ const config = {
 		adapter: adapt(),
 		target: 'body', /// lehet, h kellene
 		prerender: {
-			//force: true
-			//onError: 'continue'
+			force: true,
+			onError: 'continue'
 		}
 	}
 };
