@@ -295,7 +295,7 @@ thead tr+tr p {
   margin-top: -3rem;
 }
 
-td > p span {
+td > p span, th > p span {
   color: var(--nav);
   animation: hue-rotate 30s infinite;
 }
