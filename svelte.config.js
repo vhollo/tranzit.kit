@@ -13,7 +13,6 @@ const config = {
 		adapter: adapt(),
 		target: 'body', /// lehet, h kellene
 		prerender: {
-			force: true,
 			onError: 'continue'
 		}
 	}
