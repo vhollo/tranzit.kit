@@ -5,6 +5,9 @@
   i {
     visibility: hidden;
   }
+  table {
+    margin-top: 4rem;
+  }
 </style>
 <table id="menu">
       <thead>
@@ -69,43 +72,79 @@
             <p>Starter <span>&amp;</span> soup <span>&amp;</span> main <span>&amp;</span> dessert</p>
           </th>
         </tr>
-        <tr>
-          <td lang="hu">
-            <p></p>
-            <p>Előétel</p>
-            <p>Napi leves</p>
-            <p>Húsos leves</p>
-            <p>Főétel</p>
-            <p>Napi desszert</p>
-          </td>
-          <td>
-            <p></p>
-            <p>1070</p>
-            <p>1190</p>
-            <p>1670</p>
-            <p>2030</p>
-            <p>1000</p>
-          </td>
-          <td lang="en">
-            <p></p>
-            <p>Starter</p>
-            <p>Daily soup</p>
-            <p>Rich soup with meat</p>
-            <p>Main course</p>
-            <p>Daily dessert</p>
-          </td>
-        </tr>
-        <tr>
-          <td lang="hu">
-            <p><span>Menühöz egy&#160;üveg&#160;ásványvíz féláron!</span></p>
-          </td>
-          <td></td>
-          <td lang="en">
-            <p><span>Mineral water w/combo for&#160;half&#160;price!</span></p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+      <table id="napi">
+        <thead>
+          <tr>
+            <th colspan="3"></th>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p>Előétel</p>
+            </td>
+            <td>
+              <p>1070</p>
+            </td>
+            <td lang="en">
+              <p>Starter</p>
+            </td>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p>Napi leves</p>
+            </td>
+            <td>
+              <p>1190</p>
+            </td>
+            <td lang="en">
+              <p>Daily soup</p>
+            </td>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p>Húsos leves</p>
+            </td>
+            <td>
+              <p>1670</p>
+            </td>
+            <td lang="en">
+              <p>Rich soup with meat</p>
+            </td>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p>Főétel</p>
+            </td>
+            <td>
+              <p>2030</p>
+            </td>
+            <td lang="en">
+              <p>Main course</p>
+            </td>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p>Napi desszert</p>
+            </td>
+            <td>
+              <p>1000</p>
+            </td>
+            <td lang="en">
+              <p>Daily dessert</p>
+            </td>
+          </tr>
+          <tr>
+            <td lang="hu">
+              <p><span>Menühöz egy&#160;üveg&#160;ásványvíz féláron!</span></p>
+            </td>
+            <td></td>
+            <td lang="en">
+              <p><span>Mineral water w/combo for&#160;half&#160;price!</span></p>
+            </td>
+          </tr>
+        </thead>
+      </table>
     <table id="special">
       <thead>
         <tr>
@@ -584,7 +623,9 @@
           <td lang="hu">
             <p>Teák 1.</p>
           </td>
-          <td></td>
+          <td>
+            <p>3 dl</p>
+          </td>
           <td lang="en">
             <p>Teas 1.</p>
           </td>
@@ -685,7 +726,9 @@
           <td lang="hu">
             <p>Teák 2.</p>
           </td>
-          <td></td>
+          <td>
+            <p>3 dl</p>
+          </td>
           <td lang="en">
             <p>Teas 2.</p>
           </td>
@@ -1889,7 +1932,7 @@
             <p>Kecskesajttal, napon szárított paradicsommal, bazsalikomos, rukkolás salátával</p>
           </td>
           <td>
-            <p>27335090</p>
+            <p>3350</p>
           </td>
           <td lang="en">
             <p>Goat cheese quesadilla</p>

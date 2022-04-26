@@ -5,13 +5,14 @@ import adapt from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+  "extends": "./.svelte-kit/tsconfig.json",
 	extensions: [".svelte", ...mdsvexConfig.extensions],
 	preprocess: [
 		mdsvex(mdsvexConfig),
 	],
 	kit: {
 		adapter: adapt(),
-		target: 'body', /// lehet, h kellene
+		//target: 'body', /// lehet, h kellene
 		prerender: {
 			onError: 'continue'
 		}

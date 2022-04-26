@@ -45,12 +45,14 @@
     return m
   }
   function transmenu(m,p) {
+    //console.log(m)
     m.soup = m.soup || ''
     m.menua = m.menua || ''
     m.menub = m.menub || ''
     const s = p.split('.')
     m.lang = s[s.length-2]
     const d = new Date(m.date)
+    //console.log(m.date)
     m.date = d.toLocaleDateString(m.lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
     m.value = d.valueOf() || 0
     if (!(m.soup || m.menua || m.menub)) m.value = 0
@@ -138,6 +140,7 @@
       <p><span lang="hu">Napi ajánlatunk a <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook oldalunkon</a>!</span><span lang="en">See our dayly offers on our <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener">Facebook page</a>!</span></p>
 
       {#each menu as {date, soup, menua, menub, lang, value}}
+      <!--{console.log(value,date)}-->
       {#if d <= value}
       <aside lang="{lang}">
         <h2>{date}</h2>
@@ -164,14 +167,14 @@
       {/each}
     
       <table id="formules">
-        <tamenu>
+        <tbody>
           <tr>
             <th lang="hu">
               <p>Elegancia formula</p>
               <p>Leves <span>&amp;</span> főétel <span>vagy</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>2190</p>
+              <p>2630</p>
             </td>
             <th lang="en">
               <p>Elegantsia formule</p>
@@ -184,7 +187,7 @@
               <p>Leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>2690</p>
+              <p>3230</p>
             </td>
             <th lang="en">
               <p>Intelligenzia formule</p>
@@ -197,42 +200,87 @@
               <p>Előétel <span>&amp;</span> leves <span>&amp;</span> főétel <span>&amp;</span> desszert</p>
             </th>
             <td>
-              <p>3190</p>
+              <p>3830</p>
             </td>
             <th lang="en">
-              <p>Decadentica formule</p>
+              <p>Decadentic formule</p>
               <p>Starter <span>&amp;</span> soup <span>&amp;</span> main <span>&amp;</span> dessert</p>
             </th>
           </tr>
-          <tr>
-            <td lang="hu">
-              <p></p>
-              <p>Előétel</p>
-              <p>Napi leves</p>
-              <p>Húsos leves</p>
-              <p>Főétel</p>
-              <p>Napi desszert</p>
-            </td>
-            <td>
-              <p></p>
-              <p>890</p>
-              <p>990</p>
-              <p>1390</p>
-              <p>1690</p>
-              <p>800</p>
-            </td>
-            <td lang="en">
-              <p></p>
-              <p>Starter</p>
-              <p>Daily soup</p>
-              <p>Rich soup with meat</p>
-              <p>Main course</p>
-              <p>Daily dessert</p>
-            </td>
-          </tr>
-        </tamenu>
-      </table>
-
+          </tbody>
+        </table>
+        <table id="napi">
+          <thead>
+            <tr>
+              <th colspan="3"></th>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p>Előétel</p>
+              </td>
+              <td>
+                <p>1070</p>
+              </td>
+              <td lang="en">
+                <p>Starter</p>
+              </td>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p>Napi leves</p>
+              </td>
+              <td>
+                <p>1190</p>
+              </td>
+              <td lang="en">
+                <p>Daily soup</p>
+              </td>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p>Húsos leves</p>
+              </td>
+              <td>
+                <p>1670</p>
+              </td>
+              <td lang="en">
+                <p>Rich soup with meat</p>
+              </td>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p>Főétel</p>
+              </td>
+              <td>
+                <p>2030</p>
+              </td>
+              <td lang="en">
+                <p>Main course</p>
+              </td>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p>Napi desszert</p>
+              </td>
+              <td>
+                <p>1000</p>
+              </td>
+              <td lang="en">
+                <p>Daily dessert</p>
+              </td>
+            </tr>
+            <tr>
+              <td lang="hu">
+                <p><span>Menühöz egy&#160;üveg&#160;ásványvíz féláron!</span></p>
+              </td>
+              <td></td>
+              <td lang="en">
+                <p><span>Mineral water w/combo for&#160;half&#160;price!</span></p>
+              </td>
+            </tr>
+          </thead>
+        </table>
+  
       <figure id="pro-cultura">
         <img loading="lazy" alt="Pro Cultura Award" src="images/2020/pro-cultura-web.jpg" />
         <figcaption><span lang="hu">Pro Cultura-díj</span><span lang="en">Pro Cultura Award</span></figcaption>
