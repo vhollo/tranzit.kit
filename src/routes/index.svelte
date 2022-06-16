@@ -1,5 +1,6 @@
 <script context="module">
-  export const hydrate = false
+  export const prerender = true;
+  export const hydrate = false;
   //import { compile } from 'mdsvex'
   export async function load({ page, fetch }) {
     const menus = import.meta.glob('../napimenu/*.md')
@@ -95,9 +96,14 @@
         </div>
       {/if}
       {/each}
-      <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
+      <h1><span lang="hu">Nyári nyitva tartás</span><span lang="en">Summer Opening hours</span></h1>
+      <p><span lang="hu">(Július–augusztus)</span><span lang="en">(July–August)</span></p>
+      <p><b lang="hu">Hétfőtől csütörtökig: 9.00–22.00</b><b lang="en">Monday to Thursday: 9.00AM to 10.00PM</b></p>
 
-      <p><span lang="hu">Hétfőtől péntekig: 9.00–22.00<br>Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Monday to Friday: 9.00AM to 10.00PM<br>Saturdays, Sundays & Holidays: closed</span></p>
+      <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
+      <p><span lang="hu">(Ősz–tavasz)</span><span lang="en">(Autumn–Spring)</span></p>
+      <p><span lang="hu">Hétfőtől péntekig: 9.00–22.00</span><span lang="en">Monday to Friday: 9.00AM to 10.00PM</span></p>
+      <p><b lang="hu">Szombat, vasárnap, ünnepek: zárva</b><b lang="en">Saturdays, Sundays & Holidays: closed</b></p>
 
       <h5><span lang="hu">Cím:</span><span lang="en">Address:</span> <a rel="noopener" href="https://g.page/tranzitcafe?share">1114
           Budapest, Tranzit Art Café</a></h5>
