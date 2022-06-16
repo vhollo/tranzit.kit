@@ -92,7 +92,7 @@
       <p><b lang="hu">Hétfőtől csütörtökig: 9.00–22.00</b><b lang="en">Monday to Thursday: 9.00AM to 10.00PM</b></p>
 
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
-      <p><span lang="hu">(Ősz–tavasz)</span><span lang="en">(Autumn–Spring)</span></p>
+      <p><span lang="hu">(Ősz–tél–tavasz)</span><span lang="en">(Autumn–Winter–Spring)</span></p>
       <p><span lang="hu">Hétfőtől péntekig: 9.00–22.00</span><span lang="en">Monday to Friday: 9.00AM to 10.00PM</span></p>
       <p><b lang="hu">Szombat, vasárnap, ünnepek: zárva</b><b lang="en">Saturdays, Sundays & Holidays: closed</b></p>
 
