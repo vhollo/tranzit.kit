@@ -87,15 +87,6 @@
 
       <!--<h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
       <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>-->
-      {#each news as {value, title, summary, lang, html}}
-      {#if d <= value}
-        <div lang="{lang}">
-          {#if title}<h2>{title}</h2>{/if}
-          {#if summary}<h3>{summary}</h3>{/if}
-          {#if html}{@html html}{/if}
-        </div>
-      {/if}
-      {/each}
       <h1><span lang="hu">Nyári nyitva tartás</span><span lang="en">Summer Opening hours</span></h1>
       <p><span lang="hu">(Július–augusztus)</span><span lang="en">(July–August)</span></p>
       <p><b lang="hu">Hétfőtől csütörtökig: 9.00–22.00</b><b lang="en">Monday to Thursday: 9.00AM to 10.00PM</b></p>
@@ -287,7 +278,16 @@
           </thead>
         </table>
   
-      <figure id="pro-cultura">
+        {#each news as {value, title, summary, lang, html}}
+        {#if d <= value}
+          <div lang="{lang}">
+            {#if title}<h2>{title}</h2>{/if}
+            {#if summary}<h3>{summary}</h3>{/if}
+            {#if html}{@html html}{/if}
+          </div>
+        {/if}
+        {/each}
+        <figure id="pro-cultura">
         <img loading="lazy" alt="Pro Cultura Award" src="images/2020/pro-cultura-web.jpg" />
         <figcaption><span lang="hu">Pro Cultura-díj</span><span lang="en">Pro Cultura Award</span></figcaption>
       </figure>
@@ -300,7 +300,7 @@
             rel="noopener" href="https://hearthis.at/" target="_blank">hearthis.at</a></p>
       </iframe>
 
-
+      <p></p>
       <iframe loading="lazy" title="Facebook/tranzitcafe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftranzitcafe%2F&tabs=timeline%2Cevents&width=360&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=122069431235370" width="360" height="640" style="margin:0 -2rem;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
   </section>
