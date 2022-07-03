@@ -89,15 +89,16 @@
       <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>-->
       <h1><span lang="hu">Nyári nyitva tartás</span><span lang="en">Summer Opening hours</span></h1>
       <p><span lang="hu">(Július–augusztus)</span><span lang="en">(July–August)</span></p>
-      <p><b lang="hu">Hétfőtől csütörtökig: 9.00–22.00</b><b lang="en">Monday to Thursday: 9.00AM to 10.00PM</b></p>
+      <p><b lang="hu">Keddtől péntekig: 9.00–22.00</b><b lang="en">Tuesday to Fryday: 9.00AM to 10.00PM</b></p>
+      <p><span lang="hu">Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Saturdays, Sundays & Holidays: closed</span></p>
 
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
       <p><span lang="hu">(Ősz–tél–tavasz)</span><span lang="en">(Autumn–Winter–Spring)</span></p>
-      <p><span lang="hu">Hétfőtől péntekig: 9.00–22.00</span><span lang="en">Monday to Friday: 9.00AM to 10.00PM</span></p>
-      <p><b lang="hu">Szombat, vasárnap, ünnepek: zárva</b><b lang="en">Saturdays, Sundays & Holidays: closed</b></p>
+      <p><b lang="hu">Hétfőtől péntekig: 9.00–22.00</b><b lang="en">Monday to Friday: 9.00AM to 10.00PM</b></p>
+      <p><span lang="hu">Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Saturdays, Sundays & Holidays: closed</span></p>
 
-      <h5><span lang="hu">Cím:</span><span lang="en">Address:</span> <a rel="noopener" href="https://g.page/tranzitcafe?share">1114
-          Budapest, Tranzit Art Café</a></h5>
+      <h4><span lang="hu">Cím:</span><span lang="en">Address:</span> <a rel="noopener" href="https://g.page/tranzitcafe?share">1114
+          Budapest, Tranzit Art Café</a></h4>
       <dl>
         <dt><b><span lang="hu">Asztalfoglalás, rendelés</span><span lang="en">Reservations, preorders</span></b></dt>
         <dd><span lang="hu">Telefon:</span><span lang="en">Phone:</span> <a href="tel:+3612093070">+36 1 209 3070</a>
