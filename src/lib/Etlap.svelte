@@ -1,6 +1,7 @@
 {@html html}
 <script>
-	let html = `
+	let html = `<p lang="hu">Feltöltés alatt</p><p lang="en">Just updating</p>`
+	let nohtml = `
 <style>
   i {
     visibility: hidden;
