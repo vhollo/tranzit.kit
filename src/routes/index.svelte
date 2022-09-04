@@ -83,17 +83,15 @@
     <img loading="lazy" src="/images/remix/header.png" alt="header" />
     <label for=""><span>TRANZIT</span></label>
     <div>
-      <!--<img src="images/2021punkosd.jpg" alt="pünkösd"/><br>Nyitás: kedden!-->
-
-      <!--<h2><span lang="hu">Újra nyitva a Terasz!</span><span lang="en">Our Terrace is open again!</span></h2>
-      <a href="https://www.facebook.com/tranzitcafe" target="_blank" rel="noopener"><img src="images/tranzit_nyitnikek_fb_post_optim.png" alt="tranzit->heves"/></a>-->
+      <!--
       <h1><span lang="hu">Nyári nyitva tartás</span><span lang="en">Summer Opening hours</span></h1>
       <p><span lang="hu">(Július–augusztus)</span><span lang="en">(July–August)</span></p>
       <p><b lang="hu">Keddtől péntekig: 9.00–22.00</b><b lang="en">Tuesday to Fryday: 9.00AM to 10.00PM</b></p>
       <p><span lang="hu">Szombat, vasárnap, hétfő, ünnepek: zárva</span><span lang="en">Saturdays, Sundays, Mondays & Holidays: closed</span></p>
+      -->
 
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
-      <p><span lang="hu">(Ősz–tél–tavasz)</span><span lang="en">(Autumn–Winter–Spring)</span></p>
+      <!--<p><span lang="hu">(Ősz–tél–tavasz)</span><span lang="en">(Autumn–Winter–Spring)</span></p>-->
       <p><b lang="hu">Hétfőtől péntekig: 9.00–22.00</b><b lang="en">Monday to Friday: 9.00AM to 10.00PM</b></p>
       <p><span lang="hu">Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Saturdays, Sundays & Holidays: closed</span></p>
 
@@ -112,7 +110,7 @@
         <label class="checked1" for="checked1"><span>BISTRO</span></label>
         
         <label class="checked2" for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
-        <details>
+        <!--<details>
           <summary><label for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label></summary>
           <a href="#special">Tranzit Special</a>
           <a href="#light"><span lang="hu">Könnyű falatok</span><span lang="en">Light snacks</span></a>
@@ -126,7 +124,7 @@
           <a href="#salad"><span lang="hu">Saláták</span><span lang="en">Salads</span></a>
           <a href="#quesadilla"><span lang="hu">Quesadillák</span><span lang="en">Quesadillas</span></a>
           <a href="#alc"><span lang="hu">Alkoholos italok</span><span lang="en">Alcoholic drinks</span></a>
-        </details>
+        </details>-->
 
         <label class="checked3" for="checked3"><span>ART CAFÉ</span></label>
         <label for="lang"><span class="hu">HU</span> / <span class="en">EN</span></label>
@@ -163,7 +161,7 @@
       </aside>
       {/if}
       {/each}
-    
+      <!--
       <table id="formules">
         <tbody>
           <tr>
@@ -278,7 +276,7 @@
             </tr>
           </thead>
         </table>
-  
+        -->
         {#each news as {value, title, summary, lang, html}}
         {#if d <= value}
           <div lang="{lang}">
