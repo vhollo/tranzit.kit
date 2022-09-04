@@ -109,8 +109,8 @@
 
         <label class="checked1" for="checked1"><span>BISTRO</span></label>
         
-        <label class="checked2" for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
-        <!--<details>
+        <!--<label class="checked2" for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
+        <details>
           <summary><label for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label></summary>
           <a href="#special">Tranzit Special</a>
           <a href="#light"><span lang="hu">Könnyű falatok</span><span lang="en">Light snacks</span></a>
