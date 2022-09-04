@@ -1,4 +1,4 @@
-site_url: https://tranzitcafe.netlify.app
+site_url: https://www.tranzitcafe.com
 
 backend:
   name: git-gateway
