@@ -80,7 +80,7 @@
 
 <main id="app">
   <section class="checked0">
-    <img loading="lazy" src="/images/remix/header.png" alt="header" />
+    <img src="/images/remix/header.png" alt="" />
     <label for=""><span>TRANZIT</span></label>
     <div>
       <!--
@@ -305,19 +305,19 @@
   </section>
 
   <section class="checked1">
-    <img loading="lazy" src="/images/remix/header.png" alt="header" />
+    <img src="/images/remix/header.png" alt="" />
     <label for="checked1"><span>BISTRO</span></label>
     <Bistro/>
   </section>
 
   <section class="checked2">
-    <img loading="lazy" src="/images/remix/fortepan_4588-fej-min.jpg" alt="header" />
+    <img src="/images/remix/fortepan_4588-fej-min.jpg" alt="" />
     <label for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
      <Etlap/> 
   </section>
 
   <section class="checked3">
-    <img loading="lazy" src="/images/remix/IMG_0241_0,5.jpg" alt="header" />
+    <img src="/images/remix/IMG_0241_0,5.jpg" alt="" />
     <label for="checked3"><span>ART CAFÉ</span></label>
     <Artcafe/> 
   </section>
