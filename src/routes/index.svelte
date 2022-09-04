@@ -311,7 +311,7 @@
   </section>
 
   <section class="checked2">
-    <img src="/images/remix/fortepan_4588-fej-min.jpg" alt="" />
+    <img src="/images/remix/fortepan_4588-fej_half.jpg" alt="" />
     <label for="checked2"><span lang="hu">ÉTLAP</span><span lang="en">MENU</span></label>
      <Etlap/> 
   </section>
