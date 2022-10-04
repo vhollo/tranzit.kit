@@ -90,10 +90,13 @@
       <p><span lang="hu">Szombat, vasárnap, hétfő, ünnepek: zárva</span><span lang="en">Saturdays, Sundays, Mondays & Holidays: closed</span></p>
       -->
 
+      <!--
       <h1><span lang="hu">Nyitva tartás</span><span lang="en">Opening hours</span></h1>
-      <!--<p><span lang="hu">(Ősz–tél–tavasz)</span><span lang="en">(Autumn–Winter–Spring)</span></p>-->
       <p><b lang="hu">Hétfőtől péntekig: 9.00–22.00</b><b lang="en">Monday to Friday: 9.00AM to 10.00PM</b></p>
       <p><span lang="hu">Szombat, vasárnap, ünnepek: zárva</span><span lang="en">Saturdays, Sundays & Holidays: closed</span></p>
+      -->
+
+      <h1><span lang="hu">Bizonytalan ideig zárva</span><span lang="en">Temporarily closed</span></h1>
 
       <h4><span lang="hu">Cím:</span><span lang="en">Address:</span> <a rel="noopener" href="https://g.page/tranzitcafe?share">1114
           Budapest, Tranzit Art Café</a></h4>
